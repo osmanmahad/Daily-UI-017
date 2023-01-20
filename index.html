@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Daily-UI-017</title>
+  </head>
+  <body>
+    <div class="centered">
+      <div class="content">
+        <div class="grey_bar">
+          <i class="fa-solid fa-circle red" id="red"></i>
+          <i class="fa-solid fa-circle yellow" id="yellow"></i>
+          <i class="fa-solid fa-circle green" id="green"></i>
+        </div>
+        <div class="email_detail">
+          <div class="img">
+            <img src="./UI Avatar.svg" alt="" />
+          </div>
+          <div class="email">
+            <p id="email">from.email@company.com</p>
+            <p>Thu 01/19/2023 8:49 AM</p>
+            <p>To: You</p>
+          </div>
+        </div>
+        <div class="order_section">
+          <h1>Order#186545616</h1>
+          <p>
+            Thank you for your order. We are collecting items ready to send to
+            you. If you would like to see where your order is you can use the
+            tracking link below.
+          </p>
+        </div>
+        <div class="date_section">
+          <h1>Date</h1>
+          <p>Jan. 19, 2023</p>
+        </div>
+        <hr />
+        <div class="personal_details">
+          <div class="billed_section">
+            <h1>Billed to:</h1>
+            <p>Visa: .... 1896</p>
+            <p>John Doe</p>
+            <p>123 Road Street</p>
+            <p>Toronto, ON A1B 2C3</p>
+            <p>CAN</p>
+          </div>
+          <div class="shipped_section">
+            <h1>Shipped to:</h1>
+            <p>John Doe</p>
+            <p>123 Road Street</p>
+            <p>Toronto, ON A1B 2C3</p>
+            <p>CAN</p>
+          </div>
+        </div>
+        <hr />
+        <div class="tracking_section">
+          <div class="top_text">
+            <h1>Track Your order</h1>
+            <h1>#186545616</h1>
+          </div>
+        </div>
+        <div id="bar-container">
+          <div id="bar"></div>
+          <div class="stop-point" id="stop-point-1">
+            <div class="stop-point-text">Ordered</div>
+          </div>
+          <div class="stop-point" id="stop-point-2">
+            <div class="stop-point-text">Processing</div>
+          </div>
+          <div class="stop-point" id="stop-point-3">
+            <div class="stop-point-text">Shipping</div>
+          </div>
+          <div class="stop-point" id="stop-point-4">
+            <div class="stop-point-text">Delivered</div>
+          </div>
+        </div>
+        <button id="next-button">Track your order</button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+  <script
+    src="https://kit.fontawesome.com/eb49e3ed3b.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
